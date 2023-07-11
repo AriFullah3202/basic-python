@@ -4,6 +4,9 @@
 * [Input and output](#input-and-output-) 
 * [string operation](#string-operation)
 * [Data type](#data-type)
+  * [Convert data Type](#convert-data-type)
+  * [Dictionary](#dictionary-)
+  * [List](#)
 
 ## variable role
 ## valid role
@@ -173,3 +176,79 @@ print(type(e))
 print(type(f))
 ```
 ##### Complex
+```python
+# complex ekhane kivabe china jay
+g = 4+4j
+h = 4+8j
+print(type(g))
+print(type(h))
+```
+## Convert data type
+```python
+z = 30
+u = 33.44
+m = 8j # j chara r hbe na
+
+#int to float
+l = float(z)
+print("int to float" , type(l))
+# int to complex
+o = complex(z)
+print("int to float" , type(o))
+# float to complex
+r = complex(u)
+print('float to complex', type(r))
+#float to int
+q = int(u)
+print('float to int', q)
+#Boolean
+print(type(True)) #<class 'bool'>
+print(type(False))
+y = 90<20
+print(type(y)) #<class 'bool'>
+
+```
+## Dictionary 
+```python
+#dictionary
+# {} set , dictionary হল second bracket শুরুতে এবং শেষে হয় ।
+# তবে python এ dictionary কি এবং ভালু java তে map এর মতো ।
+firstdict = {
+    "name" : 'Arif',
+    "id" : 222,
+    "year" : 2333
+}
+print(firstdict) # {'name': 'Arif', 'id': 222, 'year': 2333}
+print(type(firstdict)) # <class 'dict'>
+
+```
+## List
+```python
+# লিস্টে অনেক রকমের ডাটা টাইপ থাকে ।
+# এবং শুরুতে , শেষে third bracket থাকবে ।
+
+firtlist = ['lenebo' , 33 , '83']
+print(firtlist) # ['lenebo' , 33 , 83]
+print(type(firtlist)) # <class 'list'>
+```
+## Set
+```python
+# লিস্টে অনেক রকমের ডাটা টাইপ থাকে ।
+# এবং শুরুতে , শেষে second bracket থাকবে ।
+
+firstset = {
+    'aiquest' , 383, 38.8 , 88, True
+}
+print(firstset) # {True, 38.8, 88, 'aiquest', 383}
+print(type(firstset)) # set output --- <class 'dict'>
+
+
+```
+## Tuple
+```python
+# এখানে আনেকগুলৌ ডাটা টাইপ থাকে
+# এবং শুরুতে এবং শেষে first bracket থাকে ।
+firsttuple = ('ai' , 33, "idid" , 8 , True )
+print(firsttuple) # ('ai', 33, 'idid', 8, True)
+print(type(firsttuple)) # <class 'tuple'>
+```
